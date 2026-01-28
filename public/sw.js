@@ -143,6 +143,9 @@ const ASSETS_TO_CACHE = [
   // Force of Law icons
   '/icons/stratagems/Force of Law/GL-52 De-Escalator.svg',
   '/icons/stratagems/Force of Law/“Guard Dog” K-9.svg',
+
+  // Redacted Regiment icons
+  '/icons/strategems/Redacted Regiment/B-MD_C4_Pack_Strategem_Icon.svg',
 ];
 
 /* eslint-disable no-restricted-globals */
