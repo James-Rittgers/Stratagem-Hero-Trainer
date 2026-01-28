@@ -63,6 +63,10 @@ const CATEGORIES = [
     id: '77fda1c3-b8c9-4d13-a1ba-4f6e036b65f1',
     name: 'Python Commandos',
   },
+  {
+    id: <id for redacted regiment>, //TODO: Find actual ID
+    name: 'Redacted Regiment',
+  },
 ];
 
 const PATRIOTIC_ADMINISTRATION_CENTER = [
@@ -500,6 +504,14 @@ const PYTHON_COMMANDOS = [
   },
 ];
 
+const REDACTED_REGIMENT = [
+  {
+    name: 'B/MD C4 Pack',
+    code: ['down', 'left', 'down', 'up', 'up', 'down'], //Temporary!
+    category_id: <id for redacted regiment>, //TODO: Find actual id
+  },
+];
+
 const GENERAL_STRATEGEMS = [
   {
     name: 'Resupply',
@@ -584,6 +596,7 @@ const STRATAGEMS = [
   ...CONTROL_GROUP,
   ...DUST_DEVILS,
   ...PYTHON_COMMANDOS,
+  ...REDACTED_REGIMENT,
   ...GENERAL_STRATEGEMS,
 ];
 
